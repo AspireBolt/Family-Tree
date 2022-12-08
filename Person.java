@@ -9,12 +9,15 @@ private int generation;
 private String relation;
 
 public Person(int famID, String head,int generation, String partner, String children,String relation){
+
+
 	this.famID=famID;
 	this.generation=generation;
 	this.head=head;
 	this.partner=partner;
 	this.children=children;
 	this.relation=relation;
+
 }
 public String getPartner(){
 	return partner;
